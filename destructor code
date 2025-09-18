@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+class Gadget{
+    public:
+    Gadget(){
+        cout<<"constructor called\n";
+    }
+    ~Gadget(){
+        cout<<"destructor called\n";
+    }
+};
+int main(){
+    Gadget g1;
+    cout<<"main function is ending....\n";
+    return 0;
+}
